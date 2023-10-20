@@ -99,6 +99,7 @@
 		</repository>
 	</distributionManagement>
 	<build>
+		<finalName>my-service-${project.version}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
