@@ -11,7 +11,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
   spring:
-    image: maryemtayeb/achat-timesheet:latest
+    image: maryemtayeb/achat:latest
     restart: on-failure
     ports:
       - "8089:8089"
