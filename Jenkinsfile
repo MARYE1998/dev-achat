@@ -71,7 +71,7 @@ stage('Unit Tests') {
        stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t ghofraneferchichi/devops-integration .'
+                    sh 'docker build -t maryemtayeb/achat .'
                 }
             }
         }
@@ -86,6 +86,7 @@ stage('Unit Tests') {
                 }
             }
         }
+
     }
     }
 
